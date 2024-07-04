@@ -88,8 +88,8 @@ class ResumeParser:
                         }
                     ],
                     temperature=0.5,
-                    max_tokens=64,
+                    max_tokens=4096,
                     top_p=1
                     )
-        
-        return response.choices[0].message.strip()
+            
+        return response.choices[0].message.content
