@@ -1,6 +1,6 @@
 import json
 from pdf2text import TextExtractor
-from resume_parser import ResumeParser
+from resume_parser import JSONConverter
 import argparse
 import os
 
@@ -17,7 +17,7 @@ def main():
     extractor = TextExtractor()
     text = extractor.extract_text_from_pdf(input_pdf_path)
 
-    parser = ResumeParser()
+    parser = JSONConverter()
     resume_json = parser.parse_resume_to_json(text)
 
     output_json_path = os.path.join(output_dir, "resume.json")

@@ -1,0 +1,146 @@
+{
+  "personal_info": {
+    "name": "NAVAMI VIPITH KUMAR",
+    "title": "Data Science Student",
+    "email": "navami.vipith2510@gmail.com",
+    "phone": "+91 6238929312",
+    "location": "Coimbatore, India",
+    "github_url": "GitHub",
+    "linkedin_url": "LinkedIn",
+    "portfolio_website_url": "",
+    "summary/objective": "A diligent and detail-oriented fifth year student of Data Science at Amrita Vishwa Vidyapeetham with strong leadership and technical skills. Actively seeking internships to leverage AI, machine learning, and predictive analysis to assist companies in making informed business decisions."
+  },
+  "education": [
+    {
+      "institution": "Amrita Vishwa Vidyapeetham",
+      "degree": "Integrated Masters of Data Science",
+      "field_of_study": "Data Science",
+      "duration": "2020 - 2025",
+      "grade": "CGPA: 9.24/10.0"
+    },
+    {
+      "institution": "GEMS Our Own English High School",
+      "degree": "All India Senior School Certificate Examination (Class 12)",
+      "field_of_study": "",
+      "duration": "2017 - 2019",
+      "grade": "Marks: 469/500 (93.8%)"
+    },
+    {
+      "institution": "GEMS Our Own English High School",
+      "degree": "All India Senior School Certificate Examination (Class 10)",
+      "field_of_study": "",
+      "duration": "2015 - 2017",
+      "grade": "CGPA: 10.0/10.0"
+    }
+  ],
+  "work_experience": [],
+  "skills": [
+    "Python",
+    "SQL",
+    "TensorFlow",
+    "HuggingFace LLMs",
+    "scikit-learn",
+    "MongoDB",
+    "Tableau",
+    "Git",
+    "Communication",
+    "Attention to Detail",
+    "Analytical Thinking",
+    "Collaboration",
+    "Adaptability"
+  ],
+  "projects": [
+    {
+      "name": "Medical RAG Application",
+      "description": "Developed a medical RAG app capable of processing and converting medical PDFs into vector representations. Enabled users to query the system and receive accurate, context-aware answers.",
+      "technologies_used": [
+        "BioMistral-7B",
+        "Qdrant",
+        "PubMedBERT embeddings",
+        "llama.cpp",
+        "LangChain"
+      ]
+    },
+    {
+      "name": "Comprehensive Analysis of Historical Indian Corporate Data",
+      "description": "Performed extensive analysis on a dataset encompassing all Indian companies recorded from 1857 to 2020. Utilized EDA techniques, statistical methods, and machine learning algorithms to derive insights and predictive models.",
+      "technologies_used": [
+        "SciPy",
+        "statsmodels",
+        "Pandas",
+        "Matplotlib",
+        "Plotly",
+        "scikit-learn",
+        "Jupyter Notebooks"
+      ]
+    },
+    {
+      "name": "Plagiarism Detection System",
+      "description": "Developed a plagiarism detection system using BERT and Doc2Vec, trained on research paper abstracts from 100,000 arXiv publications. Enhanced text similarity analysis for academic content.",
+      "technologies_used": [
+        "Transformers (HuggingFace)",
+        "Gensim",
+        "Streamlit",
+        "scikit-learn",
+        "pandas",
+        "NLTK"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Natural Language Processing with Sequence Models",
+      "issuing_organization": "Coursera",
+      "issue_date": "",
+      "expiration_date": ""
+    },
+    {
+      "name": "Python - 5-star (gold) rating",
+      "issuing_organization": "HackerRank",
+      "issue_date": "",
+      "expiration_date": ""
+    },
+    {
+      "name": "Introduction to Tableau",
+      "issuing_organization": "365DataScience",
+      "issue_date": "",
+      "expiration_date": ""
+    },
+    {
+      "name": "Introduction to Machine Learning",
+      "issuing_organization": "Kaggle",
+      "issue_date": "",
+      "expiration_date": ""
+    }
+  ],
+  "extra_curriculars": [
+    {
+      "name": "Google Developer Student Clubs",
+      "position": "Core Team Member",
+      "duration": "August 2022 - August 2023",
+      "description": "Contributed to planning, organizing, and executing Google-sponsored Computer Science events."
+    },
+    {
+      "name": "Anokha 2023",
+      "position": "Head of Communications",
+      "duration": "March 2023 - April 2023",
+      "description": "Led the Communications team for Anokha \u201923, Amrita University\u2019s national level techfest."
+    },
+    {
+      "name": "Student Energy Amrita",
+      "position": "Editorial Team Head",
+      "duration": "November 2021 - November 2023",
+      "description": "Led the Editorial team of Student Energy Amrita, producing high-quality content and assisting in event organization."
+    }
+  ],
+  "relevant_coursework": [
+    "Database Management Systems",
+    "Data Visualization",
+    "Database Design",
+    "Big Data Analytics",
+    "Regression Analysis",
+    "Probability and Statistical Inference Theory",
+    "Linear Algebra",
+    "Natural Language Processing"
+  ]
+}

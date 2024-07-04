@@ -6,13 +6,11 @@ load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
 if not openai_api_key:
-        raise ValueError("OpenAI API key in environment variables")
+        raise ValueError("OpenAI API key not in environment variables")
 
-client = OpenAI(
-  api_key=openai_api_key,  
-)
+client = OpenAI(api_key=openai_api_key)
 
-class ResumeParser:
+class JSONConverter:
     @staticmethod
     def parse_resume_to_json(text):
 
